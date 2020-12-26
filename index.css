@@ -28,15 +28,17 @@ body{
 
 .navbar a.logo{
     
-    background-image: url("logoxs.png"); 
-    background-color: black ; 
+    background-image: url("logoxs.png");  
+    background-color: black;
     border-radius: 10px;
     width: 198px;
     height: 99px;
-    
     float: left;
     padding: 10px;
     
+}
+.navbar a.logo:hover{
+    background-color: whitesmoke;
 }
 
 .navbar .navbar-right{
@@ -77,14 +79,17 @@ body{
     }
     .navbar div.navtab a.logotab{
         display:block;
-        background-image: url("logoxs.png"); 
-        background-color: black ; 
-        border-radius: 10px; 
+        background-image: url("logoxs.png");  
+        background-color: black;
+        border-radius: 10px;
         width: 198px;
         height: 99px;
         margin-right: auto;
         margin-left: auto;
         
+    }
+    .navbar div.navtab a.logotab:hover{
+        background-color: whitesmoke;
     }
     .navbar .navbar-right{
         display: flex;
@@ -138,12 +143,11 @@ body{
     .navbar .responsive a{
         display: block;
         text-decoration: none;
-        text-align: center;
         padding:15px;
         margin-bottom: 5px;
         color: white;
         background-color: black;
-        opacity: 60%;
+        opacity: 80%;
         border-radius: 10px;
         text-transform: uppercase;
     }
