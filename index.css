@@ -10,7 +10,7 @@ body{
 }
 
 .navbar{
-    background-color:    #85929e  ;
+    background-image: url("bannerdesktop.jpg");
     overflow: hidden;
     width: 100%;
     padding: 20px 10px;
@@ -28,9 +28,12 @@ body{
 
 .navbar a.logo{
     
-    background-image: url("logoxs.png");  
+    background-image: url("logoxs.png"); 
+    background-color: black ; 
+    border-radius: 10px;
     width: 198px;
     height: 99px;
+    
     float: left;
     padding: 10px;
     
@@ -74,7 +77,9 @@ body{
     }
     .navbar div.navtab a.logotab{
         display:block;
-        background-image: url("logoxs.png");  
+        background-image: url("logoxs.png"); 
+        background-color: black ; 
+        border-radius: 10px; 
         width: 198px;
         height: 99px;
         margin-right: auto;
@@ -133,11 +138,12 @@ body{
     .navbar .responsive a{
         display: block;
         text-decoration: none;
+        text-align: center;
         padding:15px;
         margin-bottom: 5px;
         color: white;
         background-color: black;
-        opacity: 80%;
+        opacity: 60%;
         border-radius: 10px;
         text-transform: uppercase;
     }
