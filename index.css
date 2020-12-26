@@ -1,3 +1,4 @@
+/* ########################### desktop design starts####################################### */
 *{
     box-sizing: border-box;
 }
@@ -14,6 +15,7 @@ body{
     overflow: hidden;
     width: 100%;
     padding: 20px 10px;
+    margin-bottom: 10px;
 
 }
 
@@ -29,7 +31,7 @@ body{
 .navbar a.logo{
     
     background-image: url("logoxs.png");  
-    background-color: black;
+    background-color: whitesmoke;
     border-radius: 10px;
     width: 198px;
     height: 99px;
@@ -38,7 +40,7 @@ body{
     
 }
 .navbar a.logo:hover{
-    background-color: whitesmoke;
+    background-color: black;
 }
 
 .navbar .navbar-right{
@@ -69,6 +71,38 @@ body{
     background-color: red;
 }
 
+.content{
+    display: block;
+    background-color: turquoise;
+    width: 16%;
+    height: 500px;
+    margin-left: 10px;
+    position: relative;
+    float: left;
+}
+
+.content .notification{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 30%;
+    background-color: tomato;
+    font-size: 20px;
+    padding:5px;
+    border-radius: 5px;
+}
+.imagecontent{
+    display: inline-block;
+    background-color: turquoise;
+    width: 62%;
+    height: 500px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+/* ################################ desktop design ends ########################### */
+
 /*##########################Tablet design starts#############################*/
 
 @media screen  and (min-width:576px) and (max-width:910px){
@@ -80,7 +114,7 @@ body{
     .navbar div.navtab a.logotab{
         display:block;
         background-image: url("logoxs.png");  
-        background-color: black;
+        background-color: whitesmoke;
         border-radius: 10px;
         width: 198px;
         height: 99px;
@@ -89,7 +123,7 @@ body{
         
     }
     .navbar div.navtab a.logotab:hover{
-        background-color: whitesmoke;
+        background-color: black;
     }
     .navbar .navbar-right{
         display: flex;
@@ -129,9 +163,9 @@ body{
     .navbar a.lines{
         display: block;
         float: right;
-        font-size: 30px;
+        font-size: 50px;
         text-decoration: none;
-        padding-top: 25px;
+        padding-top: 15px;
         color: black;
         padding-bottom: 20px;
     }
