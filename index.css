@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: scroll;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color:   #74e762 ;
+    overflow: hidden;
+    width: 100%;
+    padding: 20px 10px;
+
+}
+
+
+
+.navbar a.lines{
+    display: none;
+}
+.navbar div.navtab a.logotab{
+    display: none;
+}
+
+.navbar a.logo{
+    
+    background-image: url("logoxs.png");  
+    width: 198px;
+    height: 99px;
+    float: left;
+    padding: 10px;
+    
+}
+
+.navbar .navbar-right{
+    display: block;
+    float: right;
+    padding-right: 20px;
+    padding-top: 50px;
+    
+}
+
+.navbar .navbar-right a{
+    text-decoration: none;
+    padding:15px;
+    margin-right: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    text-transform: uppercase;
+
+}
+
+.navbar .navbar-right a:hover:not(:nth-child(1)){
+    color: black;
+    background-color: white;
+}
+.navbar .navbar-right a:hover:nth-child(1){
+    color: black;
+    background-color: red;
+}
+
+/*##########################Tablet design starts#############################*/
+
+@media screen  and (min-width:576px) and (max-width:910px){
+   
+    
+    .navbar a.logo{
+        display: none;
+    }
+    .navbar div.navtab a.logotab{
+        display:block;
+        background-image: url("logoxs.png");  
+        width: 198px;
+        height: 99px;
+        margin-right: auto;
+        margin-left: auto;
+        
+    }
+    .navbar .navbar-right{
+        display: flex;
+        justify-content: center;
+        float: none;
+        
+       }
+
+    .navbar .navbar-right a{
+       margin-right: 5px;
+       text-align: center;
+       font-size: 12px;
+       padding: 10px;
+       
+    
+    }
+}
+
+/*########################## Tablet design Ends #############################*/
+
+/*############################# Mobile design start ###############################*/
+
+@media screen and (min-width:320px) and (max-width:575px){
+    .navbar .navbar-right{
+        display: none;
+    }
+    
+    .navbar div.navtab{
+        display: none;
+    }
+    .navbar .navbar-right a{
+        display: none;
+    }
+    .navbar a.logo{
+        border-bottom: 1px solid black;
+    }
+    .navbar a.lines{
+        display: block;
+        float: right;
+        font-size: 30px;
+        text-decoration: none;
+        padding-top: 25px;
+        color: black;
+        padding-bottom: 20px;
+    }
+    .navbar .responsive{
+        display: block;
+        float: none;
+        margin-top: 60px;
+    }
+    .navbar .responsive a{
+        display: block;
+        text-decoration: none;
+        padding:15px;
+        margin-bottom: 5px;
+        color: white;
+        background-color: black;
+        opacity: 80%;
+        border-radius: 10px;
+        text-transform: uppercase;
+    }
+}
+
+/*############################# Mobile design end ###############################*/

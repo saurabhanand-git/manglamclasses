@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.jpeg" type="image/x-icon">
+    <title>Manglam Classes</title>
+</head>
+<body>
+      <div class="navbar">
+          <a href="#logo" class="logo"> </a> 
+          <div class="navtab">
+            <a href="#logo" class="logotab"> </a> 
+          </div>
+          <a href="javascript:void(0);" class="lines" onclick="expand()">&#9776;</a>
+
+          <div class="navbar-right" id="dropdown">
+              <a href="#home">home</a>
+              <a href="#courses">courses</a>
+              <a href="#fee">fee structure</a>
+              <a href="#about">about</a>
+              <a href="#contact">contact</a>
+
+          </div>
+      </div> 
+<script>
+    function expand(){
+        var x= document.getElementById("dropdown");
+        if(x.className==="navbar-right"){
+            x.className += " responsive";
+        }
+        else{
+            x.className="navbar-right";
+        }
+    }
+</script>
+
+</body>
+</html>
