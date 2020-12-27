@@ -32,7 +32,7 @@ body{
 }
 
 .navbar{
-    background-image: url("bannerdesktop.jpg");
+    background-image: #ffffff;
     overflow: hidden;
     width: 100%;
     padding: 20px 10px;
@@ -52,17 +52,17 @@ body{
 .navbar a.logo{
     
     background-image: url("logoxs.png");  
-    background-color: whitesmoke;
-    border-radius: 10px;
+    /* background-color: whitesmoke; */
+    /* border-radius: 10px; */
     width: 198px;
     height: 99px;
     float: left;
     padding: 10px;
     
 }
-.navbar a.logo:hover{
+/* .navbar a.logo:hover{
     background-color: black;
-}
+} */
 
 .navbar .navbar-right{
     display: block;
@@ -128,17 +128,17 @@ body{
     .navbar div.navtab a.logotab{
         display:block;
         background-image: url("logoxs.png");  
-        background-color: whitesmoke;
-        border-radius: 10px;
+        /* background-color: whitesmoke; */
+        /* border-radius: 10px; */
         width: 198px;
         height: 99px;
         margin-right: auto;
         margin-left: auto;
         
     }
-    .navbar div.navtab a.logotab:hover{
+    /* .navbar div.navtab a.logotab:hover{
         background-color: black;
-    }
+    } */
     .navbar .navbar-right{
         display: flex;
         justify-content: center;
@@ -185,9 +185,9 @@ body{
     .navbar .navbar-right a{
         display: none;
     }
-    .navbar a.logo{
+    /* .navbar a.logo{
         border-bottom: 1px solid black;
-    }
+    } */
     .navbar a.lines{
         display: block;
         float: right;
@@ -212,6 +212,7 @@ body{
         opacity: 80%;
         border-radius: 10px;
         text-transform: uppercase;
+        
     }
 }
 
