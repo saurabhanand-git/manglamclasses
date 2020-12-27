@@ -9,6 +9,27 @@ body{
     margin: 0;
     padding: 0;
 }
+.abovenav{
+    background-color: #8112db;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    padding: 15px 8px;
+    float: left;
+}
+.abovenav a{
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.abovenav a.phone{
+    margin-left: 30px;
+}
+.abovenav a.email{
+    float: right;
+    margin-right: 30px;
+}
 
 .navbar{
     background-image: url("bannerdesktop.jpg");
@@ -74,32 +95,11 @@ body{
 .content{
     display: block;
     background-color: turquoise;
-    width: 16%;
-    height: 500px;
-    margin-left: 10px;
-    position: relative;
-    float: left;
+    width: 100%;
+    
+    
 }
 
-.content .notification{
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 30%;
-    background-color: tomato;
-    font-size: 20px;
-    padding:5px;
-    border-radius: 5px;
-}
-.imagecontent{
-    display: inline-block;
-    background-color: turquoise;
-    width: 62%;
-    height: 500px;
-    margin-left: 10px;
-    margin-right: 10px;
-
-}
 
 /* ################################ desktop design ends ########################### */
 
@@ -107,10 +107,24 @@ body{
 
 @media screen  and (min-width:576px) and (max-width:910px){
    
+    .abovenav a{
+        text-decoration: none;
+        color:white;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .abovenav a.phone{
+        margin-left: 15px;
+    }
+    .abovenav a.email{
+        float: right;
+        margin-right: 15px;
+    }
     
     .navbar a.logo{
         display: none;
     }
+
     .navbar div.navtab a.logotab{
         display:block;
         background-image: url("logoxs.png");  
@@ -147,6 +161,20 @@ body{
 /*############################# Mobile design start ###############################*/
 
 @media screen and (min-width:320px) and (max-width:575px){
+    .abovenav a{
+        text-decoration: none;
+        color:white;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .abovenav a.phone{
+        margin-left: 10px;
+    }
+    .abovenav a.email{
+        float: right;
+        margin-right: 10px;
+    }
+    
     .navbar .navbar-right{
         display: none;
     }
