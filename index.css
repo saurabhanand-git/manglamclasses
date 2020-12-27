@@ -58,7 +58,7 @@ body{
     height: 99px;
     float: left;
     padding: 10px;
-    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 /* .navbar a.logo:hover{
     background-color: black;
@@ -134,7 +134,7 @@ body{
         height: 99px;
         margin-right: auto;
         margin-left: auto;
-        
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     }
     /* .navbar div.navtab a.logotab:hover{
         background-color: black;
