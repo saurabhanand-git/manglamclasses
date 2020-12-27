@@ -197,6 +197,9 @@ body{
         color: black;
         padding-bottom: 20px;
     }
+    .navbar a.lines:hover:active:visited:link{
+        color: none;
+    }
     .navbar .responsive{
         display: block;
         float: none;
