@@ -227,7 +227,7 @@ body{
     padding: 0px;
     
 }
-.footer .footer-right .mydetails p.design{
+.footer .footer-right .mydetails p.designedby{
        font-size: 1.2em;
        font-weight: 500;
        text-align: left;
@@ -241,9 +241,10 @@ body{
        margin: 0px;
        padding-bottom: 10px;
 }
-.footer .footer-right .mysocial a{
+.footer .footer-right .mydetails .mysocial a{
     text-decoration: none;
     margin-right: 15px;
+    text-align: center;
    
 }
 .copyright{
@@ -499,6 +500,12 @@ body{
         margin: 0px;
         padding: 5px;
         border-bottom: 5px solid red;
+    }
+    .footer .footer-right div.social{
+        text-align: center;
+    }
+    .footer .footer-right .mydetails p.designedby{
+        text-align: center;
     }
     /* .footer .footer-right p.myname{
         text-align: inherit;
