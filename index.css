@@ -445,6 +445,9 @@ body{
         text-transform: uppercase;
         
     }
+    .content .main-content{
+        width: 90%;
+    }
     .content .main-content .content-image{
         min-width: 269px;
         max-width: 270px;
