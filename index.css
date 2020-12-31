@@ -115,8 +115,7 @@ body{
 .content .main-content .content-image{
     width: 700px;
     height: 350px;
-    background-color: ivory;
-    
+    /* background-color: ivory; */
     border-radius: 10px;
     /* position: absolute; */
     margin: 0 auto 0 auto;
