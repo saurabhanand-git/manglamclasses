@@ -120,20 +120,20 @@ body{
     background-image: url("content image above/content photo (1).jpg");
     background-size: 100% 100%;
     box-shadow: 0 4px 0px 4px rgba(177, 174, 174, 0.8);
-    /* animation: slideshowabove 20s infinite linear; */
+    animation: slideshowabove 20s infinite linear;
 }
 @keyframes slideshowabove{
     0%{
-        background-image: url("../content image above/content photo (2).jpg");
+        background-image: url("content image above/content photo (2).jpg");
     }
     25%{
-        background-image: url("../content image above/content photo (3).jpg");
+        background-image: url("content image above/content photo (3).jpg");
     }
     50%{
-        background-image: url("../content image above/content photo (4).jpg");
+        background-image: url("content image above/content photo (4).jpg");
     }
     75%{
-        background-image: url("../content image above/content photo (5).jpg");
+        background-image: url("content image above/content photo (5).jpg");
     }
 }
 
@@ -257,28 +257,27 @@ body{
     height: 360px;
     border-radius: 10px;
     margin: 20px auto 0 auto;
-    background-image: url("../content image below/content photo (1).jpg");
+    background-image: url("content image below/content photo (1).jpg");
     background-size: 100% 100%;
     box-shadow: 0 4px 0px 4px rgba(177, 174, 174, 0.8);
     animation: slideshowbottom 20s infinite linear;
 }
 @keyframes slideshowbottom{
     0%{
-        background-image: url("../content image below/content photo (2).jpg");
+        background-image: url("content image below/content photo (2).jpg");
     }
     25%{
-        background-image: url("../content image below/content photo (3).jpg");
+        background-image: url("content image below/content photo (3).jpg");
     }
     50%{
-        background-image: url("../content image below/content photo (4).jpg");
+        background-image: url("content image below/content photo (4).jpg");
     }
     75%{
-        background-image: url("../content image below/content photo (5).jpg");
+        background-image: url("content image below/content photo (5).jpg");
     }
 }
 .footer{
     display: inline-block;
-    /* margin-top: 10px; */
     background-color: #121112;
     opacity: 90%;
     width: 100%;
