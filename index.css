@@ -117,7 +117,7 @@ body{
     height: 480px;
     border-radius: 10px;
     margin: 0 auto 0 auto;
-    background-image: url("../content image above/content photo (1).jpg");
+    background-image: url("content image above/content photo (1).jpg");
     background-size: 100% 100%;
     box-shadow: 0 4px 0px 4px rgba(177, 174, 174, 0.8);
     animation: slideshowabove 20s infinite linear;
