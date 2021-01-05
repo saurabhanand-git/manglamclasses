@@ -105,7 +105,7 @@ body{
     display: block;
     background-color: #000000;
     width: 80%;
-    height: 1000px;
+    height: 1200px;
     box-shadow: 0 4px 0px 4px rgba(255, 0, 0,0.8);
     margin: auto;
     /* opacity: 85%; */
@@ -113,29 +113,27 @@ body{
     z-index: 1;
 }
 .content .main-content .content-image{
-    width: 700px;
-    height: 350px;
-    /* background-color: ivory; */
+    width: 852px;
+    height: 480px;
     border-radius: 10px;
-    /* position: absolute; */
     margin: 0 auto 0 auto;
-    background-image: url("content photo (1).jpg");
+    background-image: url("../content image above/content photo (1).jpg");
     background-size: 100% 100%;
     box-shadow: 0 4px 0px 4px rgba(177, 174, 174, 0.8);
-    animation: slideshow 20s infinite linear;
+    animation: slideshowabove 20s infinite linear;
 }
-@keyframes slideshow{
+@keyframes slideshowabove{
     0%{
-        background-image: url("content photo (1).jpg");
+        background-image: url("../content image above/content photo (2).jpg");
     }
     25%{
-        background-image: url("content photo (2).jpg");
+        background-image: url("../content image above/content photo (3).jpg");
     }
     50%{
-        background-image: url("content photo (3).jpg");
+        background-image: url("../content image above/content photo (4).jpg");
     }
     75%{
-        background-image: url("content photo (4).jpg");
+        background-image: url("../content image above/content photo (5).jpg");
     }
 }
 
@@ -255,28 +253,27 @@ body{
 }
 .content .main-content .content-row .content-row-right{
     display: block;
-    width: 500px;
-    height: 300px;
-    /* float: left; */
+    width: 680px;
+    height: 360px;
     border-radius: 10px;
     margin: 20px auto 0 auto;
-    background-image: url("content photo (1).jpg");
+    background-image: url("../content image below/content photo (1).jpg");
     background-size: 100% 100%;
     box-shadow: 0 4px 0px 4px rgba(177, 174, 174, 0.8);
     animation: slideshowbottom 20s infinite linear;
 }
 @keyframes slideshowbottom{
     0%{
-        background-image: url("content photo (1).jpg");
+        background-image: url("../content image below/content photo (2).jpg");
     }
     25%{
-        background-image: url("content photo (2).jpg");
+        background-image: url("../content image below/content photo (3).jpg");
     }
     50%{
-        background-image: url("content photo (3).jpg");
+        background-image: url("../content image below/content photo (4).jpg");
     }
     75%{
-        background-image: url("content photo (4).jpg");
+        background-image: url("../content image below/content photo (5).jpg");
     }
 }
 .footer{
@@ -483,14 +480,19 @@ body{
        
     
     }
-    .content .main-content .content-image{
-              width: 460px;
-              height: 250px;
+    .content .main-content{
+        height: 1100px;
     }
+    .content .main-content .content-image{
+              width: 100%;
+              height: 360px;
+             
+    }
+   
     .content .main-content .content-row{
         display: inline-block;
         width: 100%;
-        height: 300px;
+        height: 330px;
         background-color: #000000;
         margin-top: 20px;
     }
@@ -519,12 +521,12 @@ body{
     }
     .content .main-content .content-row .content-row-right{
         display: block;
-        width: 100%;
+        width: 80%;
         height: 100%;
         background-color: rgb(0, 0, 0);
         border: 1px solid white;
         padding: 5px;
-        float: left;
+        /* float: left; */
         
     }
     
@@ -626,12 +628,14 @@ body{
     }
     .content .main-content{
         width: 90%;
+        height: 100%;
     }
     .content .main-content .content-image{
-        min-width: 269px;
-        max-width: 270px;
-        height: 200px;
-    }
+       width: 100%;
+        height: 220px;
+    
+   
+     }
     .content .main-content .content-row{
         display: inline-block;
         width: 100%;
@@ -643,7 +647,7 @@ body{
     .content .main-content .content-row .content-row-left{
         display: block;
         width: 100%;
-        height: 200px;
+        height: 230px;
         /* background-color: lawngreen; */
         font-size: 18px;
         /* padding:20px; */
@@ -654,7 +658,7 @@ body{
     .content .main-content .content-row .content-row-centre{
         display: block;
         width: 100%;
-        height: 230px;
+        height: 240px;
         margin-top: 5px;
         background-color: rgb(0, 0, 0);
         border: 1px solid white;
@@ -667,7 +671,7 @@ body{
     .content .main-content .content-row .content-row-right{
         display: block;
         width: 100%;
-        height: 210px;
+        height: 200px;
         margin-top: 5px;
         background-color: rgb(0, 0, 0);
         border: 1px solid white;
